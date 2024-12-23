@@ -1,0 +1,18 @@
+# Exclude node_modules except production dependencies
+node_modules/**
+
+# Exclude version control files
+.git/
+.gitattributes
+
+# Exclude VS Code workspace settings
+.vscode/
+
+# Exclude documentation files
+README.md
+
+# Exclude licenses (optional, but generally not needed in the package)
+LICENSE
+
+# Exclude other unnecessary files
+*.log

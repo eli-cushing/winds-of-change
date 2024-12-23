@@ -1,0 +1,27 @@
+{
+  "name": "winds-of-change",
+  "displayName": "Winds of Change",
+  "description": "A light Visual Studio Code theme inspired by Ghibli's The Wind Rises with adjustments for enhanced readability.",
+  "version": "0.0.1",
+  "publisher": "eli-cushing",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eli-cushing/winds-of-change"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Winds of Change",
+        "uiTheme": "vs",
+        "path": "./winds-of-change.json"
+      }
+    ]
+  }
+}
