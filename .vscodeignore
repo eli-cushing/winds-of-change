@@ -1,18 +1,24 @@
-# Exclude node_modules except production dependencies
-node_modules/**
-
-# Exclude version control files
+# Version Control
 .git/
 .gitattributes
+.gitignore
 
-# Exclude VS Code workspace settings
+# VS Code Settings
 .vscode/
 
-# Exclude documentation files
-README.md
+# Development Files
+node_modules/
+package-lock.json
 
-# Exclude licenses (optional, but generally not needed in the package)
-LICENSE
-
-# Exclude other unnecessary files
+# Temporary Files
 *.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Build Artifacts
+*.vsix
+
+## License
+
+LICENSE

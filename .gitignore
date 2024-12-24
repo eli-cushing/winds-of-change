@@ -1,0 +1,17 @@
+# Node modules and package lock
+node_modules/
+package-lock.json
+
+# Ignore compiled output files
+*.vsix
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
